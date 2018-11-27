@@ -32,7 +32,12 @@ plugins.JitsiPlugin.loadURL(room_url, null, function(data) {
 
 ## how to build for ionic
 
+```bash
 ionic plugin add https://github.com/sesangsokuro/cordova-plugin-jitsi-meet
+
 ionic plugin add cordova-plugin-compat
+
 ( for cordova permision helper )
+
 ionic build andorid
+```
